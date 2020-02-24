@@ -1,0 +1,30 @@
+.header {
+    background-color: #3b5998;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu--text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.menu--profile {
+    height: 16px;
+}
