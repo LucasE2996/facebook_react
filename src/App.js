@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import Header from './components/Header/Header';
+import Header from "./components/Header/Header";
 
-import './App.css';
+import "./App.css";
+import PostList from "./components/PostList/PostList";
 
 function App() {
-    return (<>
-        <Header />
-    </>);
+  return (
+    <>
+      <Header />
+      <PostList />
+    </>
+  );
 }
 
 export default App;
