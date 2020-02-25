@@ -9,13 +9,13 @@ function Post({ data }) {
   return (
     <div className="post">
       <div className="post--header">
-        <img src={data.author.avatar} />
+        <img className="avatarPhoto" src={data.author.avatar} />
         <div className="post--header-name">
           <h5>{data.author.name}</h5>
           <p>{data.date}</p>
         </div>
       </div>
-      <h5>{data.content}</h5>
+      <h5 className="content">{data.content}</h5>
       <div className="comments">
         {data.comments.map(comment => (
           <Comment key={comment.id} data={comment} />
